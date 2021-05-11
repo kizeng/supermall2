@@ -1,8 +1,11 @@
 import Vue from 'vue'
-import cpn from './components/new_file.vue'
+import App from './App'
+import axios from 'axios'
+import router from './router/index'
 
 Vue.config.productionTip = false
 
 new Vue({
-	render:h=>h(cpn)
+	render: h => h(App),
+	router
 }).$mount('#app')

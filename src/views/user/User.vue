@@ -1,10 +1,11 @@
 <template>
-	<div id="cpn">
-		出门,买买买
-	</div>
+  <div>user</div>
 </template>
 
 <script>
+  export default {
+    name:'User'
+  }
 </script>
 
 <style>
