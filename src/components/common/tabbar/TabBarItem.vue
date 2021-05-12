@@ -46,7 +46,7 @@
 
     font-size: 10px;
     text-align: center;
-    background-color: rgba(231, 231, 231, 0.2);
+    background-color: rgba(247, 247, 247, 1.0);
     cursor: pointer;
 
     transition: all 0.6s;
@@ -58,10 +58,10 @@
 
   }
   .tabbaritem:hover{
-    background-color: rgba(214, 37, 24, 0.2);
+    background-color: rgba(255, 196, 194, 1.0);
   }
-  
+
   .active-bag-color{
-    background-color: rgba(214, 37, 24, 0.2);
+    background-color: rgba(255, 196, 194, 1.0);
   }
 </style>

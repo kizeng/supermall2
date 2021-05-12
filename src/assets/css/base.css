@@ -1,7 +1,7 @@
 @import url("./normalize.css");
 
 :root{
-	--color-text:#666;
+	--color-text:#393939;
 	--color-high-text:#ff5777;
 	--color-tint:#ff8198;
 	--color-background:#fff;
@@ -20,12 +20,13 @@
 body{
 	padding: 0;
 	margin: 0;
-	
+
 	user-select: none; /* 禁止用户鼠标在页面选中文字/图片等; */
-	
+
 	background-color: var(--color-background);
 	color: var(--color-text);
-	
+
+  overflow-x: hidden;
 	width: 100vw;
 }
 
