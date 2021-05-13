@@ -20,7 +20,13 @@ export default {
 
   font-size: var(--font-size);
 
-  position: fixed;
+  /* position: fixed; */
+  position: relative;
+  top: 0;
+  left: 0;
+
+  z-index: 99;
+
   display: flex;
   flex-direction: row;
 

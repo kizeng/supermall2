@@ -43,9 +43,10 @@
     display: flex;
     flex-direction: column;
     flex: 1 0 auto;
+    align-items: center;
+    justify-content: center;
 
     font-size: 10px;
-    text-align: center;
     background-color: rgba(247, 247, 247, 1.0);
     cursor: pointer;
 
