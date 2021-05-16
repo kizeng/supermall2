@@ -41,7 +41,7 @@ export default {
   }
 
   .recommend-item img{
-    width: 85%;
+    width: 80%;
     padding-bottom: 10px;
   }
 

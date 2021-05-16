@@ -41,19 +41,20 @@ export default {
       playTimer: null //定时器
     };
   },
-  mounted: function() {
-    setTimeout(() => {
-      this.handleDom();
+  // mounted: function() {
+  //   setTimeout(() => {
+  //     // this.handleDom();
 
-      // 2.开启定时器
-      this.startTimer();
+  //     // // 2.开启定时器
+  //     // this.startTimer();
+  //     // this.updated
 
-    }, 100);
-  },
+  //   }, 100);
+  // },
   //当异步数据请求成功后重新检测当前的item数量
   updated: function() {
     // 1.操作DOM, 在前后添加Slide
-    if (this.slideCount === 0) {
+    if (this.slideCount === 0 && this.playTimer === null) {
       this.handleDom();
       // 2.开启定时器
       this.startTimer();
@@ -73,6 +74,7 @@ export default {
     },
     stopTimer: function() {
       window.clearInterval(this.playTimer);
+      this.playTimer = null;
     },
 
     /**

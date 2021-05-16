@@ -20,10 +20,11 @@ export default {
 
   font-size: var(--font-size);
 
-  /* position: fixed; */
-  position: relative;
+  position: fixed;
+  /* position: relative; */
   top: 0;
   left: 0;
+  right: 0;
 
   z-index: 99;
 

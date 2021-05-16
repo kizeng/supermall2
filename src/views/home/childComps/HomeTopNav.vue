@@ -1,8 +1,6 @@
 <template>
   <top-nav class="top-nav">
     <div slot="nav-title-content">购物</div>
-    <div slot="nav-title-left"><</div>
-    <div slot="nav-title-right">></div>
   </top-nav>
 </template>
 
